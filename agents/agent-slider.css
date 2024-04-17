@@ -15,6 +15,23 @@ body {
   padding: 0;
 }
 
+.go-back {
+  height: 50px;
+  border-radius: 0px 0px 30px 0px;
+  background-color: whitesmoke;
+  border: none;
+  width: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 400ms;
+  margin-top: -8px;
+}
+
+.go-back:hover {
+  opacity: 0.8;
+}
+
 .slide-btn {
   position: absolute;
   display: flex;
@@ -33,7 +50,7 @@ body {
 }
 
 .slide-btn:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #slide-btn-left {
@@ -54,9 +71,8 @@ body {
   flex: 1 0 100%;
 }
 
-.agent-1 {
+.agents {
   width: 100%;
   height: 100%;
-  background-image: url(https://sm.ign.com/t/ign_in/screenshot/default/valorant-2_mdt7.1280.jpg);
   background-size: cover;
 }
