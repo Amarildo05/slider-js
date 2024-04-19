@@ -10,6 +10,28 @@ svg {
   opacity: 0.7;
 }
 
+h1 {
+  margin-top: -30%;
+  margin-right: 33%;
+  opacity: 0.6;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#h1-weapons {
+  color: whitesmoke;
+  opacity: 0.6;
+  margin-top: -36%;
+  margin-right: 31%;
+}
+
+#h1-maps {
+  opacity: 0.5;
+  margin-right: 35%;
+}
+
 button {
   font-family: DINNextW1G, arial, georgia, sans-serif;
   font-size: medium;
