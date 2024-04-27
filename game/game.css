@@ -25,10 +25,12 @@ button:hover {
 }
 
 h1 {
-  opacity: 0.6;
+  opacity: 0.9;
+  text-shadow: 0 0 5px black, 0 0 7px black;
   text-align: center;
   font-size: 50px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 div {
@@ -43,11 +45,26 @@ p {
   line-height: 1.7;
   width: 68%;
   font-size: larger;
-  opacity: 0.7;
-  margin-bottom: 8%;
+  opacity: 0.9;
+  text-shadow: 0 0 5px black, 0 0 7px black;
+  margin-bottom: 6%;
 }
 
 iframe {
   margin-top: 3%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
+  border: 10px solid transparent;
+  border-image: url(/images/border-img.webp) 15;
+}
+
+#valorant-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
